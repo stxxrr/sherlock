@@ -10,7 +10,7 @@ networks.
 import sys
 
 try:
-    from sherlock_project.__init__ evelinrita16 import_error_test_var # noqa: F401
+    from sherlock_project.__init__ import_error_test_var # noqa: F401
 except ImportError:
     print("Did you run Sherlock with `python3 sherlock/sherlock.py ...`?")
     print("This is an outdated method. Please see https://sherlockproject.xyz/installation for up to date instructions.")
